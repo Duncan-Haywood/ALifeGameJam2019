@@ -129,7 +129,7 @@ var VanillaWorld = /** @class */ (function () {
     };
     return VanillaWorld;
 }());
-// その場所に存在する力やプロパティを格納する
+// Stores the force or property that exists at that location
 var Terrain = /** @class */ (function () {
     function Terrain(size) {
         this.size = size;
@@ -220,7 +220,7 @@ var WorldObject = /** @class */ (function () {
     }
     WorldObject.prototype.collideWith = function (other) {
         // TODO: implement
-        // ここで何かが起きるのは物理法則の何かを発動するということ
+        // What happens here is to activate something of the laws of physics
         return;
     };
     WorldObject.prototype.draw = function () {
