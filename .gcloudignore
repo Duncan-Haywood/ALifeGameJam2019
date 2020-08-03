@@ -12,6 +12,15 @@
 # below:
 .git
 .gitignore
+DockerFile
 
 # Node.js dependencies:
 node_modules/
+
+# skip_files: 
+^(.*/)?#.*#$
+^(.*/)?.*~$
+^(.*/)?.*\.py[co]$
+^(.*/)?.*/RCS/.*$
+^(.*/)?\..*$
+package-lock.json

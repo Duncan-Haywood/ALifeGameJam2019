@@ -1,7 +1,3 @@
 runtime: nodejs
 env: flex
-api_verison: 1
-
-
-
-skip files: package-lock.json
+api_version: 1
